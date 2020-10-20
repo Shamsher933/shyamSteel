@@ -101,7 +101,7 @@ img {
 
 /*===== NAV =====*/
 @media screen and (max-width: 768px) {
-  .nav {
+  .nav1 {
     position: fixed;
     top: 0;
     left: -100%;
@@ -114,6 +114,7 @@ img {
     -webkit-transition: .5s;
     transition: .5s;
   }
+ 
 }
 
 .nav__content {
@@ -210,7 +211,7 @@ img {
   .header__logo, .header__toggle {
     display: none;
   }
-  .nav {
+  .nav1 {
     width: 100%;
   }
   .nav__content {
@@ -362,7 +363,7 @@ p {
 }
 .product-area .nav-tabs .nav-item {
     margin-bottom: -1px;
-    display: inline-block;
+    display: inline-block !important;
 }
 .product-area .nav-tabs li a {
     color: #333;
@@ -370,7 +371,7 @@ p {
     display: inline-block;
     position: relative;
     margin-right: 5px;
-    font-weight: 500;
+    font-weight: 600;
     background: #fff;
     color: #333;
     padding: 3px 14px;
@@ -774,7 +775,7 @@ section .section-title {
     margin-bottom: 10px;
 }
 .carousel-inner{
-    padding-top: 15px !important;
+    padding-top: 0px !important;
 }
 }
         :root {
